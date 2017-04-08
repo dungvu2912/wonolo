@@ -31,7 +31,7 @@ class ActiveJobPageLocators(object):
 	JobTitle           = (By.XPATH, "//td[@class='job_title'][.='cleaning house at weekend']")
 	KeyWord            = (By.XPATH, "//div[@class='input_container']//input[@class='form-control jri_requestor_name input_style']")
 	SearchButton       = (By.XPATH, "//button[.='Search']")
-	DetailButton       = (By.XPATH,"//td[@class='job_title'][.='cleaning house at weekend']/following-sibling::td[@class='request_actions']//a[@class='with_ajax_goodness']")
+	DetailButton       = (By.XPATH,"//td[@class='job_title'][.='cleaning house at weekend']/following-sibling::td[@class='request_actions']//a")
 
 class DetailJob(object):
 	JobName            = (By.XPATH, "//div[@id='job_request_details_panel']//table/tbody/tr/td[.='Job name']/following-sibling::td")
