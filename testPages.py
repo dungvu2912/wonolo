@@ -4,7 +4,7 @@ from selenium import webdriver
 
 # Test suite:
 class TestPages(unittest.TestCase):
-	#   Use Webdriver Firefox, open the Customer Portal Web app link
+    #   Use Webdriver Firefox, open the Customer Portal Web app link
     @classmethod
     def setUp(cls):
         cls.driver = webdriver.Firefox()
